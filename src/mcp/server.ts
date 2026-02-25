@@ -33,6 +33,7 @@ export function createAdventureWorksServer(): McpServer {
     // Register all tool modules here
     registerSchemaTools(server);
     registerTestTools(server);
+    registerQueryTools(server);
     // registerInventoryTools(server);
     
     // As you grow, add more registrations here:
