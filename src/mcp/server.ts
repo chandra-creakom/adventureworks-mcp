@@ -15,6 +15,7 @@
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { registerSchemaTools } from "./tools/schemaTools.js";
+import { registerTestTools } from "./tools/testTools.js";
 // import { registerInventoryTools } from "./tools/inventoryTools.js";
 // import { registerAuditTools } from "./tools/auditTools.js"; 
 
@@ -31,6 +32,7 @@ export function createAdventureWorksServer(): McpServer {
 
     // Register all tool modules here
     registerSchemaTools(server);
+    registerTestTools(server);
     // registerInventoryTools(server);
     
     // As you grow, add more registrations here:
