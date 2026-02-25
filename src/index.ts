@@ -50,7 +50,7 @@ async function bootstrap() {
   try {
     // 1. Warm up the singleton SQL pool and Schema cache
     console.log("🔥 [System] Priming database metadata...");
-    // await SchemaService.getTables();
+    await SchemaService.getTables();
 
     // 2. Start the server
     app.listen(port, () => {
