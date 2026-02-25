@@ -1,0 +1,11 @@
+By organizing your MCP layer this way, your project structure now looks like a high-end enterprise application. Here is what we just set up:
+
+tools/: This is for the "Hands"—where the Agent does things (Update SQL, Delete, Insert).
+
+resources/: This is for the "Eyes"—where the Agent sees data (Reports, Schema, Logs).
+
+prompts/: This is for the "Memory"—where we give the Agent pre-defined instructions for specific tasks.
+
+
+
+npx @modelcontextprotocol/inspector   -- command to run the mcp inspector

@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",          // Required for proper ESM behavior
+    "moduleResolution": "NodeNext", // Required for .js extension support
+    "verbatimModuleSyntax": true,   // Tells TS: "Don't touch my imports"
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true
+  },
+  "include": ["src/**/*"]
+}
