@@ -16,6 +16,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { registerSchemaTools } from "./tools/schemaTools.js";
 import { registerTestTools } from "./tools/testTools.js";
+import { registerQueryTools } from "./tools/queryTools.js";
 // import { registerInventoryTools } from "./tools/inventoryTools.js";
 // import { registerAuditTools } from "./tools/auditTools.js"; 
 
